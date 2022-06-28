@@ -1,0 +1,57 @@
+.container{
+    width: 65vw;
+}
+
+@media (max-width: 1000px) {
+    .container{
+        width: 75vw;
+    }
+ }
+ @media (max-width: 900px) {
+    .container{
+        width: 80vw;
+    }
+    .box{
+        padding: 4rem 2rem;
+        line-height: 1.5;
+    }
+ }
+ @media (max-width: 800px) {
+    .container{
+        width: 90vw;
+    }
+    .btn{
+        padding: 1rem 2rem;
+        border-radius: 25px;
+        font-size: 1.2rem;
+    }
+ }
+ @media (max-width: 500px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .container h2{
+        font-size: 3.5rem;
+    }
+    
+    .container p{
+        font-size: 1.5rem;
+    }
+    .box{
+        padding: 4rem 4rem;
+        line-height: 1.5;
+    }
+    .box-1{
+        border-radius: 10px 10px 0 0;
+    }
+    .box-3{
+        border-radius: 0 0 10px 10px;
+    }
+    .btn{
+        padding: 1.3rem 3rem;
+        font-size: 1.5rem;
+    }
+ }
